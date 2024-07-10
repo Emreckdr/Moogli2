@@ -1,0 +1,39 @@
+﻿Build started 12.01.2020 00:55:10.
+     1>Project "C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\dump_proto\dump_proto.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I../../../Extern/include /I./Extra /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D ___DUMP_PROTO__ /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CsvFile.cpp dump_proto.cpp "ItemCSVReader.cpp" lzo.cpp tea.cpp
+         tea.cpp
+         lzo.cpp
+         ItemCSVReader.cpp
+     1>c:\users\emre-pc\desktop\moogli-server files\source\02.01.20_moogli2clientsrc\client\eterbase\filename.h(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\emre-pc\desktop\moogli-server files\source\02.01.20_moogli2clientsrc\client\eterbase\filename.h(354): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\emre-pc\desktop\moogli-server files\source\02.01.20_moogli2clientsrc\extern\python2\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 13.0\vc\include\math.h(516) : see previous definition of 'round'
+         dump_proto.cpp
+     1>c:\users\emre-pc\desktop\moogli-server files\source\02.01.20_moogli2clientsrc\client\eterbase\filename.h(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\emre-pc\desktop\moogli-server files\source\02.01.20_moogli2clientsrc\client\eterbase\filename.h(354): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\emre-pc\desktop\moogli-server files\source\02.01.20_moogli2clientsrc\extern\python2\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 13.0\vc\include\math.h(516) : see previous definition of 'round'
+         CsvFile.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D "_UNICODE" /D "UNICODE" /l"0x0409" /nologo /fo"Debug\dump_proto.res" dump_proto.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\Debug\DumpProto.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../Extern/lib /LIBPATH:../../../Extern/Python2/libs kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:"LIBCMTD" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\Debug\DumpProto.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\Debug\DumpProto.lib" /MACHINE:X86 /SAFESEH Debug\dump_proto.res
+         Debug\CsvFile.obj
+         Debug\dump_proto.obj
+         "Debug\ItemCSVReader.obj"
+         Debug\lzo.obj
+         Debug\tea.obj
+         "C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\Debug\lzo.lib"
+     1>CsvFile.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         dump_proto.vcxproj -> C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\Debug\DumpProto.exe
+     1>Done Building Project "C:\Users\EMRE-PC\Desktop\Moogli-Server Files\source\02.01.20_Moogli2ClientSrc\tools\DumpProto\dump_proto\dump_proto.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.67
